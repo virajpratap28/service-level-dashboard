@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-50 text-slate-800 transition-colors duration-150;
+}
+
+.dark body {
+  @apply bg-slate-950 text-slate-100;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-brand-blue/20 rounded-full;
+}
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
